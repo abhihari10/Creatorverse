@@ -1,6 +1,6 @@
 # WEB103 Prework - Creatorverse
 
-Submitted by: **Abhi Hari**
+Submitted by: **Abhishek Hari**
 
 About this web app: **Creatorverse is a React and Supabase app for collecting favorite content creators. Users can browse creator cards, view creator details, visit each creator's channel, add new creators, edit existing creators, and delete creators from the directory.**
 
