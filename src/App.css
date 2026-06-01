@@ -187,11 +187,17 @@ main {
 }
 
 .page-heading p,
-.detail-copy p {
+.detail-copy p,
+.creator-url {
   max-width: 680px;
   margin: 0;
   color: var(--muted);
   font-size: clamp(1rem, 2vw, 1.18rem);
+}
+
+.creator-url {
+  overflow-wrap: anywhere;
+  font-weight: 800;
 }
 
 .creator-grid {

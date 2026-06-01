@@ -48,7 +48,7 @@ GIF created with ScreenToGif
 
 ## Notes
 
-The app uses a Supabase table named `creators` with columns for `name`, `url`, `description`, and `imageURL`. The setup SQL is included in `supabase-setup.sql`.
+The app uses a Supabase table named `creators` with columns for `name`, `url`, `description`, and `imageURL`. The setup SQL is included in `supabase-setup.sql`. After creating the table, add at least five creators through the app or Supabase Table Editor so the homepage satisfies the prework requirement.
 
 ## License
 

@@ -28,8 +28,8 @@ function AddCreator() {
     setIsSaving(true)
 
     try {
-      const creator = await addCreator(form)
-      navigate(`/creator/${creator.id}`)
+      await addCreator(form)
+      navigate('/')
     } catch (caught) {
       setError(caught instanceof Error ? caught.message : 'Unable to add creator.')
     } finally {

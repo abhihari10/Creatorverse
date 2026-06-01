@@ -63,6 +63,9 @@ function ViewCreator() {
           <span className="eyebrow">Creator profile</span>
           <h1>{creator.name}</h1>
           <p>{creator.description}</p>
+          <a href={creator.url} target="_blank" rel="noreferrer" className="creator-url">
+            {creator.url}
+          </a>
 
           <div className="detail-actions">
             <a href={creator.url} target="_blank" rel="noreferrer" className="button-primary">
