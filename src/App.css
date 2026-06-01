@@ -71,6 +71,8 @@
 .button-danger,
 .creator-card__actions a,
 .back-link {
+  display: inline-flex;
+  align-items: center;
   min-height: 42px;
   justify-content: center;
   gap: 8px;
@@ -78,6 +80,7 @@
   padding: 0 16px;
   color: var(--ink);
   font-weight: 800;
+  line-height: 1;
   text-decoration: none;
   transition:
     transform 180ms ease,
